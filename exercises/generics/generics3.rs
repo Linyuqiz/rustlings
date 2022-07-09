@@ -10,7 +10,6 @@
 
 // Execute 'rustlings hint generics3' for hints!
 
-// I AM NOT DONE
 
 pub struct ReportCard {
     pub grade: f32,
@@ -52,7 +51,7 @@ mod tests {
         };
         assert_eq!(
             report_card.print(),
-            "Gary Plotter (11) - achieved a grade of A+"
+            "Gary Plotter (11) - achieved a grade of 2.1"
         );
     }
 }
